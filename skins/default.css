@@ -229,5 +229,10 @@ footer{
 }
 #sub-footer{
 	background:#DB214D;
+	padding: 0px;
+	margin: 0px;
+}
+footer a{
+	font-weight: bold;
 }
 
