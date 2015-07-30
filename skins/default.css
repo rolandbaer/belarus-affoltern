@@ -240,3 +240,18 @@ footer a{
 	font-weight: bold;
 }
 
+/* table */
+table{
+	/*width: 100%;*/
+}
+tr:hover > td{
+	background: #eee;
+}
+td, th{
+	padding: 5px;
+}
+
+/* contact form */
+form#contactform input[type="text"], form#contactform textarea{
+	border-color: #919191;
+}
