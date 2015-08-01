@@ -18,9 +18,10 @@ ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfoli
     padding: 0 0 0 135px;
 }
 
-.navbar-collapse
+.navbar .container
 {
-	background: url('../img/logo1.png') no-repeat left;
+	background: url('../img/logo1.png') no-repeat left top;
+	min-height: 100px;
 }
 
 header .nav li a:hover,
