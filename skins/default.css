@@ -242,9 +242,6 @@ footer a{
 }
 
 /* table */
-table{
-	/*width: 100%;*/
-}
 tr:hover > td{
 	background: #eee;
 }
@@ -255,4 +252,12 @@ td, th{
 /* contact form */
 form#contactform input[type="text"], form#contactform textarea{
 	border-color: #919191;
+}
+
+/* Spenden */
+
+p.bigger
+{
+	font-size: larger;
+	font-weight: bolder;
 }
