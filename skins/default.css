@@ -1,7 +1,7 @@
 /* === color === */
 
 body, ul.cat li a, ul.folio-detail li a{
-	color: #333;
+	color: #222;
 }
 
 a, a:hover,a:focus,a:active, footer a.text-link:hover, strike, .post-meta span a:hover, footer a.text-link, 
