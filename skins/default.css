@@ -261,3 +261,10 @@ p.bigger
 	font-size: larger;
 	font-weight: bolder;
 }
+
+/* Projektberichte */
+
+.box-bottom a:active, .box-bottom a:focus {
+	color: #eee;
+	font-weight: 700;
+}
