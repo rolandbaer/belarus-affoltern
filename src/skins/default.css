@@ -268,3 +268,14 @@ p.bigger
 	color: #eee;
 	font-weight: 700;
 }
+
+/* Datenschutzerklärung */
+
+.gdpr {
+	text-align:left;
+	font-size:12px;
+}
+
+ul.list {
+	list-style-type: square;
+}
