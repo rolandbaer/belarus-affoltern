@@ -101,38 +101,62 @@ img.img-polaroid {
 
 
 header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.sticky .navbar{
+	min-height: 60px;
+}
+
+.sticky .navbar .container{
+	background-size: auto 100%;
+	min-height: 60px;
+	transition: 0.2s;
+}
+
+.sticky ul {
+	height: 60px;
+}
+
+.sticky .navbar-nav > li {
+	padding: 0px;
+	transition: 0.2s;
+}
+
+.sticky .navbar-brand {
+	margin-top: 10px;
+	transition: 0.2s;
 }
 
 header .navbar {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .navbar-default {
-    border: none;
+	border: none;
 }
 
 .navbar-brand {
-    color: #222;
+	color: #222;
 	text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1em;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1em;
 	letter-spacing: -1px;
-    margin-top: 30px;
-    padding: 0 0 0 15px;
+	margin-top: 30px;
+	padding: 0 0 0 15px;
 }
 
 
 header .navbar-collapse  ul.navbar-nav {
-    float: right;
-    margin-right: 0;
+	float: right;
+	margin-right: 0;
 }
 
 header .navbar-default{
-    background-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(255, 255, 255, 0.75);
 }
 
 header .nav li a:hover,
